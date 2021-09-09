@@ -46,6 +46,7 @@ function reviveTask(inde) {
 clearAll.onclick = () => {
     liList = [];
     todoList.innerHTML = "";
+    x = 0;
     tasks = 0;
     pendingTask.innerHTML = `You have ${tasks} pending task`;
 };
