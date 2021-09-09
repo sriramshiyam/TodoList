@@ -132,8 +132,11 @@ body {
   .todoList li span {
     right: 0;
   }
-  .wrapper {
-    font-size: 1.3rem;
+  li{
+    font-size: 1.2rem;
+  }
+  .footer span {
+    font-size: 1.2rem;
   }
   .wrapper header {
     font-size: 20px;
