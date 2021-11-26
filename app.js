@@ -3,13 +3,14 @@ const addBtn = document.querySelector(".inputField button");
 const todoList = document.querySelector(".todoList");
 const clearAll = document.querySelector(".footer button");
 const pendingTask = document.querySelector(".footer span");
+const emptyvalmessage = document.getElementById("emptyinputbox");
 
 inputBox.onchange = () => {
     let userData = inputBox.value;
-    if (userData.trim().length != 0) {
-        addBtn.classList.add("active");
+    if (userData.trim().length === 0) {
+        emptyvalmessage.style.display = "block";
     } else {
-        addBtn.classList.remove("active");
+        emptyvalmessage.style.display = "none";
     }
 };
 
