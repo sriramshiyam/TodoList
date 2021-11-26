@@ -5,7 +5,7 @@ const clearAll = document.querySelector(".footer button");
 const pendingTask = document.querySelector(".footer span");
 const emptyvalmessage = document.getElementById("emptyinputbox");
 
-inputBox.onchange = () => {
+addBtn.onclick = () => {
     let userData = inputBox.value;
     if (userData.trim().length === 0) {
         emptyvalmessage.style.display = "block";
