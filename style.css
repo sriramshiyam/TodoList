@@ -8,6 +8,8 @@
 
 #emptyinputbox{
   display: none;
+  color: red;
+  text-align: center;
 }
 
 body {
