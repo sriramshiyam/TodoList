@@ -24,7 +24,6 @@ body {
 }
 
 .wrapper {
-  width: 400px;
   border-radius: 5px;
   padding: 25px;
   background-color: white;
@@ -128,7 +127,7 @@ span svg{
   text-decoration: line-through;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   .wrapper {
     width: 90%;
   }
