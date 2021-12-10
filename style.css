@@ -71,8 +71,8 @@ body {
 }
 
 .todoList li {
+  border: 3px solid gray;
   list-style: none;
-  height: 45px;
   line-height: 45px;
   position: relative;
   background: #f2f2f2;
